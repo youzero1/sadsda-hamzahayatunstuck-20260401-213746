@@ -1,0 +1,1 @@
+id ? { ...todo, text: newText } : todo))\n    )\n  }\n\n  const clearCompleted = () => {\n    setTodos(prev => prev.filter(todo => !todo.completed))\n  }\n\n  const filteredTodos = todos\n    .filter(todo => {\n      if (filter
